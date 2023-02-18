@@ -1,9 +1,11 @@
 .holder{
-		display: grid;
-		grid-template-columns: repeat(2,200px);
-		grid-template-rows: repeat(2,200px);
-	}
-	.box{
-		background-color: yellow;
-		bottom: 2px solid black;
-	}
+	display: grid;
+/*     background-color: rebeccapurple; */
+    gap: 5px;
+    grid-template-columns: auto auto;
+           
+}
+.item{
+	height: 200px;
+	width: 200px;
+}
